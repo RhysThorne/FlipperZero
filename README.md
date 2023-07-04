@@ -2,7 +2,7 @@
 # FlipperZero
 All In One Flipper Zero Database
 
-Slowly but Surely Adding More, If You Have Questions About Something Add Me On Discord IntX0#8473
+Slowly but Surely Adding More, If You Have Questions About Something Add Me On Discord intx0
 This project is for educational purposes only! Please seek permission before running any of the scripts provided by me. I cannot be held responsible for any damage that may occur as a result of your use of these scripts.
 # Want to help?
 Fork and do a pull request
