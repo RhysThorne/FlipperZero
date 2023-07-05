@@ -22,17 +22,17 @@ Based On https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb/tree/main/BadUsb-Colle
 5. Do not upload any of your payloads to VirusTotal or Hybrid Analysis. They will be added to the database and from then on detectable
 6. If you do not know how to run Linux or install something like meterpreter refer to the following links  
    KALI VM  
-  *https://rb.gy/9y5l8  
-  *https://rb.gy/e7ce7  
+  * https://rb.gy/9y5l8  
+  * https://rb.gy/e7ce7  
    METERPRETER  
-  *https://rb.gy/zsr6v  
-  *https://rb.gy/u4q9v  
+  * https://rb.gy/zsr6v  
+  * https://rb.gy/u4q9v  
    THEFATRAT  
-  *https://github.com/screetsec/TheFatRat  
+  * https://github.com/screetsec/TheFatRat  
    VILLIAN  
-  *https://github.com/t3l3machus/Villain  
+  * https://github.com/t3l3machus/Villain  
    ENCRYPTING PAYLOAD  
-  *https://github.com/JoelGMSec/Invoke-Stealth  
+  * https://github.com/JoelGMSec/Invoke-Stealth  
   
 7. Make Sure to Start the Listener in your terminal BEFORE Executing the BadUSB attack
 
