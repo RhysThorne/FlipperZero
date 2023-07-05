@@ -20,7 +20,7 @@ Based On https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb/tree/main/BadUsb-Colle
 3. Edit the Script so that the 'YOUR_GITHUB_RELEASES_PAGE' points to your releases (*https://github.com/YOUR_NAME/YOUR_REPO/releases/latest/download/NAME_OF_Payload.EXTENTION*)
 4. It is Very Possible for Windows Defender to Detect the Download Depending On the Verison and Settings, I'm In the Process of Combining This With the '\FlipperZeroDB\BadUSB\general\Disable_Windows_Defender' So That it's undetected
 5. Do not upload any of your payloads to VirusTotal or Hybrid Analysis. They will be added to the database and from then on detectable
-6. If you do not know how to run Linux or install something like meterpreter refer to the following links  
+6. If you do not know how to run Linux or install something like meterpreter refer to the following links
    KALI VM
   * https://rb.gy/9y5l8  
   * https://rb.gy/e7ce7  
